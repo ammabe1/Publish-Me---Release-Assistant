@@ -1,6 +1,9 @@
 # Publish-Me---Release-Assistant
 Determine the best month or timeframe to self-publish a new novel/book based on sales data of books broken down by genre/troupe.
 
+barplot_2023_Sub_Genre_Booksales.png
+barplot_Maser_Genre_Booksales.png
+
 ## Virtual Environment Commands to create a virtual environment
 | Command | Linux/Mac | GitBash |
 | ------- | --------- | ------- |
