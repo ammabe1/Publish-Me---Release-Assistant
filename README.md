@@ -3,6 +3,7 @@ Determine the best month or timeframe to self-publish a new novel/book based on 
 
 barplot_2023_Sub_Genre_Booksales.png
 barplot_Maser_Genre_Booksales.png
+barplot_2023_Booksales_by_Publisher.png
 
 ## Virtual Environment Commands to create a virtual environment
 | Command | Linux/Mac | GitBash |
