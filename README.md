@@ -22,10 +22,10 @@ The long term goal would be to design an application or web based dashboard that
     ## Virtual Environment Commands to create a virtual environment
 | Command | Linux/Mac | GitBash |
 | ------- | --------- | ------- |
-| Create | `python3 -m venv venv` | `python -m venv venv` |
-| Activate | `Publish-Me---Release-Assistant venv/bin/activate` | `Publish-Me---Release-Assistant venv/Scripts/activate` |
-| Install | `pip install -r requirements.txt` | `pip install -r requirements.txt` |
-| Deactivate | `deactivate` | `deactivate` |
+| Create | 'python3 -m venv venv' | 'python -m venv venv' |
+| Activate | 'Publish-Me---Release-Assistant venv/bin/activate' |'Publish-Me---Release-Assistant venv Scripts activate' |
+| Install | 'pip install -r requirements.txt' | 'pip install -r requirements.txt' |
+| Deactivate | 'deactivate' | 'deactivate' |
 2. 
 
 # Contributing
