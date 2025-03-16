@@ -9,6 +9,6 @@ barplot_2023_Booksales_by_Publisher.png
 | Command | Linux/Mac | GitBash |
 | ------- | --------- | ------- |
 | Create | `python3 -m venv venv` | `python -m venv venv` |
-| Activate | `source venv/bin/activate` | `source venv/Scripts/activate` |
+| Activate | `Publish-Me---Release Assistant venv/bin/activate` | `Publish-Me---Release Assistant venv/Scripts/activate` |
 | Install | `pip install -r requirements.txt` | `pip install -r requirements.txt` |
 | Deactivate | `deactivate` | `deactivate` |
