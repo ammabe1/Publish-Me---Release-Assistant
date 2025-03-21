@@ -1,15 +1,16 @@
 # Publish-Me---Release-Assistant
 The purpose of this project is to take published books sales data, sorted it by sub-genre to allow self-publish authors to determine the highest probability for successful sales of their novel based on genre and sub-genre sales data. The long term goal would be to design an application or web based dashboard that will allow the author search or filter for the chosen sub-genre/tropes for sales numbers for historical sales data. Furthermore, to cross check with planned release dates of similar books that will be published by traditional publishing houses to prevent lower sales by releasing self-published books at or around the same time of more well known or popular authors.
 
-The two original datasets utilized, Books_Data_Clean.csv & book_details.csv, were inner joined/merged using book title as the primary key, which resulted in 675 rows of data.  Once the data was cleaned, and broken out into fiction or nonfiction, I used a list of fiction and nonfiction genres to sort for sales numbers. I further drilled down the data into tropes or sub-genres based on value counts of all tropes/sub-genres in the dataset with a dictionary to explain the cleaned data. These were sorted based on highest to least in a value count list. The cleaned data was put into a new csv file The results of sales (fiction vs nonfiction) and sales totals by publisher were grapheds via matplotlib. Plotly was used to graph out the tropes of Romance sales on the tier one and tier two tropes. 
+The two original datasets utilized, Books_Data_Clean.csv & book_details.csv, were inner joined/merged using book title as the primary key, which resulted in 675 rows of data. Each row contained a list of ten genres/sub-genres/tropes attributed to each book. This column was seperated to allow for prioritizing and sorting of the stings in this column. Once the data was cleaned, it was broken out into fiction or nonfiction in a new column. I used a list of fiction and nonfiction genres to sort for sales numbers. I further drilled down the data into tropes or sub-genres based on value counts of all tropes/sub-genres in the dataset with a dictionary to explain the cleaned data in the analysis markdown. These were sorted based on highest to least in a value count list. The cleaned data was put into a new csv file which can be explained in a data dictionary in the analysis markdown. The results of sales (fiction vs nonfiction) and sales totals by publisher were grapheds via matplotlib. Plotly was used to graph out the tropes of Romance sales on the tier one and tier two tropes. 
 
 
 # Installation
 1. Clone the repository: fork and clone the repository from this link: https://github.com/ammabe1/Publish-Me---Release-Assistant
 2. Navigate to the project on your computer file explorer: /Publish-Me---Release-Assistant
 3. Open the file in your prefered code editor (I use VisualStudio Code)
-4. Open the .ipynb file
+4. Open the Publish-Me---Release-Assistant.ipynb file
 5. Open your command line interface. Ensure you are in the file named /Publish-Me---Release-Assistant, if not navigate using command directory (cd) to the correct folder. 
+6. Follow the usage directions below to create and activate a virtual environment.
  
 
 # Usage
