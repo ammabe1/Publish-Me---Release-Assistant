@@ -52,6 +52,7 @@ The two original datasets utilized, Books_Data_Clean.csv & book_details.csv, wer
     book_details.csv (https://www.kaggle.com/datasets/evilspirit05/comprehensive-goodreads-book-dataset?resource=download)
 4. You should be able to run the code in the notebook at this juncture.
 5. When finished in the notebook, use the deactivate command in your command line to deactivate the virtual environment. 
+6. You can access the Tableau Dashboard for this project by clicking the following link: https://public.tableau.com/views/PublishMe-ReleaseAssistant2023BookSalesbyGenreTrope/BookSales2023?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link 
 
 # Contributing
 1. Fork the repository
