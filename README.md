@@ -3,6 +3,16 @@ The purpose of this project is to take published books sales data, sorted it by 
 
 The two original datasets utilized, Books_Data_Clean.csv & book_details.csv, were inner joined/merged using book title as the primary key, which resulted in 675 rows of data. Each row contained a list of ten genres/sub-genres/tropes attributed to each book. This column was seperated to allow for prioritizing and sorting of the stings in this column. Once the data was cleaned, it was broken out into fiction or nonfiction in a new column. I used a list of fiction and nonfiction genres to sort for sales numbers. I further drilled down the data into tropes or sub-genres based on value counts of all tropes/sub-genres in the dataset with a dictionary to explain the cleaned data in the analysis markdown. These were sorted based on highest to least in a value count list. The cleaned data was put into a new csv file which can be explained in a data dictionary in the analysis markdown. The results of sales (fiction vs nonfiction), sales totals by publisher, and sales of fiction and nonfiction broken out by genre were grapheds via matplotlib. I have also created a Tableau Dashboard to further display my data to allow for additional callouts within the visualizations.   
 
+## Features
+| Feature | Description |
+|-------|-----------|
+| Read Three data files | Read in two csv files from Kaggle and created one of cleaned data|
+| Created several matplotlib plots and Tableau dashboard | Various graphs to map my findings and a Tableau dashboard for interactive data findings |
+| Utillized a virtual environment | Created a venv for faster usage/running of the notebook |
+| Cleaning and merging | I completed column breaking down of strings for easier analyzing and plotting, thorough cleaning of the data |
+| Functions | Created several functions to prioritize the string genre data once broken out and cleaned |
+| Data Dictionary | Built a custom data dictionary for the created csv from the cleaned data |
+| Analysis | Analysis for book sales broken out by fiction and nonfiction then drilled down by genre and top selling tropes within those genres | 
 
 # Installation
 1. Clone the repository: fork and clone the repository from this link: https://github.com/ammabe1/Publish-Me---Release-Assistant
@@ -25,26 +35,7 @@ The two original datasets utilized, Books_Data_Clean.csv & book_details.csv, wer
 | Activate | 'Publish-Me---Release-Assistant venv/bin/activate' |'Publish-Me---Release-Assistant venv Scripts activate' |
 | Install | 'pip install -r requirements.txt' | 'pip install -r requirements.txt' |
 | Deactivate | 'deactivate' | 'deactivate' |
-2. The above install should install all needed packages:
-
-    import pandas as pd
-    
-    import matplotlib.pyplot as plt
-    
-    from matplotlib import colormaps
-    
-    import numpy as np
-    
-    from collections import Counter
-    
-    import string
-    
-    import sqlite3
-    
-    from matplotlib.ticker import 
-    FuncFormatter
-    
-    import seaborn as sn
+2. The above install should install all needed packages from the requirements.txt file.
 3. Download the datasets from: 
     
     Books_Data_Clean.csv (https://www.kaggle.com/datasets/thedevastator/books-sales-and-ratings)
