@@ -63,6 +63,6 @@ The two original datasets utilized, Books_Data_Clean.csv & book_details.csv, wer
  
 
 # Contact
-For questions or support, contact name.
+For questions or support, contact Amy Mabe.
 
 
